@@ -1,0 +1,1 @@
+x(i) = ( y(i) * sum(i+1,n){U(i,j) * x(j)} ) / u(i,i)
