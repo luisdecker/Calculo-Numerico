@@ -74,7 +74,14 @@ Ent√£o, para a assun√ß√£o inicial de que x^0 = (0,0,0), temos
 	0 	+ 6x2^k+1 + 0	 	    = 9
 	0 	+ 0       + 7x3^k+1	    = -6	
 	
-}#
+#}
+%ImplementaÁ„o do metodo de Jacobi
+
+
+
+
+
+
 
 
 
