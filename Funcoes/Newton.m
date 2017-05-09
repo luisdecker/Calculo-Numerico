@@ -50,5 +50,17 @@ o quadrado do erro da iteração k.
 #}
 
 function [raiz] = Newton (f,fd,a,b,intervaloab,precisao)
-
+    [A,B] = acharIntervalo(f,a,b,intervaloab);
+    Xk = (A+B) / 2;
+    xKInicial = Xk
+    f(Xk)
+    while(abs(f(Xk)) > precisao)
+        X = Xk - (f(Xk)/fd(Xk));
+        if(f(X) == 0)
+            raiz = X;
+            return;
+        endif
+        raiz = X;
+        Xk = X
+    endwhile 
 endfunction

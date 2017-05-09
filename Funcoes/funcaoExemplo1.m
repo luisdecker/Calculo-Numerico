@@ -18,5 +18,5 @@
 ## Created: 2017-04-25
 
 function [y] = funcaoExemplo1 (x)
-   y=exp(x)*sin(x)-1;
+   y=exp(x).*sin(x)-1;
 endfunction
